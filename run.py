@@ -5,7 +5,7 @@ import socket
 
 ENV = os.environ.get("ENV")
 if ENV == "development":
-    config_file = f'config/development.yml'
+    config_file = 'config/development.yml'
 else:
     config_file = 'config/local.yml'
 with open(config_file, 'r') as f:
