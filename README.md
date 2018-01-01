@@ -1,6 +1,6 @@
 # My Best Tweets in This Year
 
-Share your bests tweets in this year.
+Share your best tweets in this year.
 
 https://twitter.com/makky_tw/status/947479213438726144
 
