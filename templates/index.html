@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <h1 style="font-family:fantasy">Your best tweets in 2017</h1>
+  <h3>2017年のツイート数は <u>{{ tweets_number }}</u> 件でした！</h3>
+  <h3>もらったいいねの総数は <u>{{ favorite_amount }}</u> でした！</h3>
+  <ol>
+  {% for ti in tweets_info %}
+      <li>
+        <p>{{ti.status.favorite_count}} Like</p>
+        <p>{{ti.oembed.html |safe}}</p>
+      </li>
+  {% endfor %}
+  </ol>
+
+</body>
+</html>
